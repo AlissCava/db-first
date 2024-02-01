@@ -1,0 +1,11 @@
+| nome colonna | tipo di dato | attributi |
+| ---- | ---- | ---- |
+| id | INT | primary_key, auto_increment |
+| marchio | VARCHAR(32) | -- |
+| model | VARCHAR(32) | -- |
+| targa | VARCHAR(16) | nullable |
+| colore_principale | VARCHAR(16) | nullable |
+| km | INT | -- |
+| cilindrata | INT | nullable |
+| accidentata | BOOLEAN | default(false) |
+| peso | INT | nullable |
